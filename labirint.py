@@ -1,3 +1,4 @@
+#https://github.com/krisstinaa08/my.game08.git
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (QApplication,QButtonGroup, QWidget, QHBoxLayout, QVBoxLayout, QGroupBox, QRadioButton, QPushButton, QLabel)
 from random import shuffle, randint 
@@ -11,7 +12,6 @@ class Question():
         self.wrong3 = wrong3
 app = QApplication([])
 questions_list = []
-
 questions_list.append(Question("Бродяги, нищие, уголовные элементы и другие асоциальные личности – как назвать их одним словом?", "Люмпены", "Истеблишмент", "Маргиналы", "Бомонд"))
 questions_list.append(Question('Как называлось дружеское общество петербургской молодежи в 1819-1820 годах, в числе членов которого были декабристы Глинка, Толстой и Каверин?', "Зеленая лампа", "Справедливость", "Союз спасения", "Могучая кучка"))
 questions_list.append(Question('Какое слово написано правильно?',"Аккордеон", "Котарсис", "Дименция", "Лобировать"))
@@ -155,3 +155,4 @@ next_question()
 window.show()
 
 app.exec()
+
